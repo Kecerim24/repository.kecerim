@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.kecerim" name="kecerim's repo" version="0.0.1" provider-name="kecerim">
+<addon id="repository.kecerim" name="kecerim's repo" version="0.0.2" provider-name="kecerim">
     <extension point="xbmc.addon.repository" name="kecerim's repo">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Kecerim24/repository.kecerim/main/repo/zips/addons.xml</info>
@@ -9,7 +9,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>kecerim's repo</summary>
-        <description>kecerim's repo</description>
+        <description>kecerim's repo pro KodiSimpleStream</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
     </extension>

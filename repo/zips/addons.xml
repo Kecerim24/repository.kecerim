@@ -18,7 +18,23 @@
   </settings>
   <news>easywatch</news>
 </extension>
-</addon><addon id="repository.kecerim" name="kecerim's repo" version="0.0.1" provider-name="kecerim">
+</addon><addon id="plugin.video.kodisimplestream" version="0.1.3" name="kodisimplestream" provider-name="kecerim">
+<requires>
+  <import addon="xbmc.python" version="3.0.0" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="kodisimplestream.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="cs">KodiSimpleStream - Kodi plugin pro Webshare.cz</summary>
+  <description lang="cs_CZ">Jednoduchý Kodi plugin pro přehrávání videí z Webshare.cz. Pro více informací navštivte https://github.com/Kecerim24/plugin.video.kodisimplestream</description>
+  <platform>all</platform>
+  <settings>
+    <setting id="username" type="text" label="Username" default="" />
+    <setting id="password" type="text" label="Password" option="hidden" default="" />
+  </settings>
+</extension>
+</addon><addon id="repository.kecerim" name="kecerim's repo" version="0.0.2" provider-name="kecerim">
     <extension point="xbmc.addon.repository" name="kecerim's repo">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Kecerim24/repository.kecerim/main/repo/zips/addons.xml</info>
@@ -28,7 +44,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>kecerim's repo</summary>
-        <description>kecerim's repo</description>
+        <description>kecerim's repo pro KodiSimpleStream</description>
         <disclaimer />
         <platform>all</platform>
     </extension>

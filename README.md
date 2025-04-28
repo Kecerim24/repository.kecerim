@@ -1,1 +1,1 @@
-# repository.kecerim
+# Kodi repozitář pro addon [KodiSimpleStream](https://github.com/Kecerim24/plugin.video.kodisimplestream)
