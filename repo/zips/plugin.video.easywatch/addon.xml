@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.easywatch"
-version="0.0.1"
+version="0.0.2"
 name="easywatch"
-provider-name="Roman_V_M">
+provider-name="kecerim">
 <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="xbmc.python" version="3.0.0"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="easywatch.py">
   <provides>video</provides>
@@ -17,6 +17,11 @@ provider-name="Roman_V_M">
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets> -->
+  <platform>all</platform>
+  <settings>
+    <setting id="username" type="text" label="Username" default="" />
+    <setting id="password" type="text" label="Password" option="hidden" default="" />
+  </settings>
   <news>easywatch</news>
 </extension>
 </addon>

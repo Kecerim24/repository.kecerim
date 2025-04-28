@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.video.easywatch" version="0.0.1" name="easywatch" provider-name="Roman_V_M">
+<addons><addon id="plugin.video.easywatch" version="0.0.2" name="easywatch" provider-name="kecerim">
 <requires>
-    <import addon="xbmc.python" version="3.0.0" />
+  <import addon="xbmc.python" version="3.0.0" />
 </requires>
 <extension point="xbmc.python.pluginsource" library="easywatch.py">
   <provides>video</provides>
@@ -11,6 +11,11 @@
   <description lang="en_GB">easywatch</description>
   <disclaimer lang="en_GB">easywatch</disclaimer>
   
+  <platform>all</platform>
+  <settings>
+    <setting id="username" type="text" label="Username" default="" />
+    <setting id="password" type="text" label="Password" option="hidden" default="" />
+  </settings>
   <news>easywatch</news>
 </extension>
 </addon><addon id="repository.kecerim" name="kecerim's repo" version="0.0.1" provider-name="kecerim">
