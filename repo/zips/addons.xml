@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.video.kodisimplestream" version="0.2.1" name="kodisimplestream" provider-name="kecerim">
+<addons><addon id="plugin.video.kodisimplestream" version="0.2.2" name="kodisimplestream" provider-name="kecerim">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
+  <import addon="script.module.requests" version="2.31.0" />
+  <import addon="script.module.xmltodict" version="0.21.0" />
 </requires>
 <extension point="xbmc.python.pluginsource" library="kodisimplestream.py">
   <provides>video</provides>
